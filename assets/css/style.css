@@ -45,6 +45,17 @@ h2 {
     border-bottom: 1px solid #976363;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: rgb(224, 211, 211);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #976363;
+    display: none;
+}
+
 /* Main content */
 main {
     background-color: lightblue;
