@@ -107,5 +107,11 @@ nav {
     display: none;
 }
 }
+
+/* Main content */
+main {
+/* Push main content down to accomodate larger header */
+    margin-top: 40px;
+}
     
 
