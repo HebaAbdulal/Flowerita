@@ -76,11 +76,6 @@ nav {
     font-size: 2rem;
 }
 
-.fa-solid.fa-bars {
-    background-color: #976363;
-    border-radius: 3px;
-}
-
 /* Main content */
 main {
     background-color: lightblue;
@@ -89,8 +84,19 @@ main {
     margin-top: 47px;
 }
 /* Footer */
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: rgb(224, 211, 211);
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #976363;
 }
 
 /* Media query: tablet and larger */
