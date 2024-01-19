@@ -76,6 +76,11 @@ nav {
     font-size: 2rem;
 }
 
+.fa-solid.fa-bars {
+    background-color: #976363;
+    border-radius: 3px;
+}
+
 /* Main content */
 main {
     background-color: lightblue;
