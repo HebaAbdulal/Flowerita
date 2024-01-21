@@ -17,6 +17,15 @@ body {
     font-family: 'lato', sans-serif;
 }
 
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Merienda One', 'Brush Script MT', cursive;
+    display: block;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+
 /* Header */
 header {
     background-color: rgb(224, 211, 211);
@@ -83,13 +92,36 @@ main {
     margin-top: 47px;
 }
 
+/* Flowers */
+#cover-text {
+    width: 200px;
+    right: 20px;
+}
+    
+
+
 /* Flowers section */
 #flowers {
     background: url("../backgrounds/flower.jpg") no-repeat center center/cover;
+    position: relative;
+}
+/* Final rgba value sets the opacity so it is semi transparent */
+#cover-text {
+    background-color: rgb(224, 211, 211, .8);
+    width: 70%;
+    position: absolute;
+    bottom: 90px;
+    min-height: 80px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#cover-text > h1 {
+    color: white;
 }
 
 .page-header {
-    height: 50vh;
+    height: 100vh;
 	background: center 75% / cover no-repeat;
 }
 
@@ -97,12 +129,6 @@ main {
     text-align: center;
 }
 
-h1 {
-    font-size: 3rem;
-    font-family: 'Merienda One', 'Brush Script MT', cursive;
-    display: block;
-    font-weight: bold;
-}
 /* Footer */
 #social-networks {
     text-align: center;
