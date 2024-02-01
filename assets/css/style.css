@@ -15,6 +15,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: Kepler-Med-Capt,serif;
+    margin: 0;
 }
 
 h1 {
@@ -103,8 +104,6 @@ main {
     width: 80%;
     right: 20px;
 }
-    
-
 
 /* Flowers section */
 #flowers {
@@ -135,6 +134,248 @@ main {
 
 .text-center {
     text-align: center;
+}
+
+#flowers-login {
+    height: 100vh;
+    width: 100%;
+    background: url("../backgrounds/flo.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+/*header buttons styling*/
+#button {
+    display: block;
+    padding-left: 30%;
+    padding-top: 390px;
+}
+
+.order-button, .login-button {
+    color: #03030e;
+    background: rgb(224, 211, 211);
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    width: 8em;
+    margin: 3% 0.6%;
+    font-size: 1.5em;
+    font-family: Kepler-Med-Capt,serif;
+  }
+  
+  
+.order-button:hover {
+    background-color: #c6c6e4;
+    text-decoration: underline;
+    color: red;
+  }
+
+  .login-button:hover {
+    background-color: #c6c6e4;
+    text-decoration: underline;
+    color: red;
+  }
+
+  .login {
+    align-items: center;
+    margin-top: 20px;
+    height: 40%;
+    width: 25%;
+    display: inline-block;
+    padding: 2%;
+  }
+
+  .form {
+    width: 40%;
+    background-image: linear-gradient(to right, rgb(224, 211, 211), rgb(248, 241, 240));
+    border-radius: 50px;
+    margin-top: 50px;
+  }
+
+  .form h2 {
+    margin-bottom: 2px;
+}
+
+.form .input-display {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+  }
+
+h2 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 1rem;
+    text-transform: none;
+    margin-top: 0;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+  .form .input-display input {
+    width: 100%;
+    padding: 4px 0;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 1px solid #07071a;
+    outline: none;
+    resize: none;
+    font-size: 20px;
+}
+
+  .form .input-display textarea {
+    width: 100%;
+    padding: 4px 0;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 1px solid #0a0a1f;
+    outline: none;
+    resize: none;
+    font-size: 12px;
+}
+
+  .login .input-display {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+  .input-display textarea {
+      height: 5em;
+}
+  
+  
+  .form .input-display span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 15px;
+    pointer-events: none;
+}
+
+    .login a {
+    text-decoration: none;
+}
+  
+  .login a:hover {
+    color: rgb(38, 67, 197);
+    text-decoration: underline;
+  
+}
+
+  .login p {
+    margin-top: 20px;
+}
+
+.form .input-display input:focus~span,
+.form .input-display input:valid~span,
+.form .input-display textarea:focus~span,
+.form .input-display textarea:valid~span {
+  color: black;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #d49696;
+  border: 1px solid #4b4040;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 14px;
+  width: 8em;
+  margin-top: 14px;
+}
+
+input[type="submit"]:hover {
+  text-decoration: underline;
+  background-color: #bdc6eb;
+  color: #353bf0;
+}
+
+input[type="reset"]:hover {
+  text-decoration: underline;
+  background-color: #bdc6eb;
+  color: #353bf0;
+}
+
+.login a {
+    text-decoration: none;
+    color:#000000;
+}
+
+.register {
+    width: 30%;
+    display: inline-block;
+    padding: 1%;
+}
+
+.register p {
+    margin-top: 20px;
+}
+
+.register .input-display {
+    width: 85%;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+/* Order page styling */
+#order-background {
+    height: 100vh;
+    width: 100%;
+    background: url("../backgrounds/order-background.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+.order {
+    width: 45%;
+    justify-items: left;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 5px auto;
+    background-color: rgb(231, 226, 226);
+}
+
+fieldset {
+    margin: 10px;
+    background-color: #d6c0c0;
+    border: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+legend {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+}
+
+.float {
+    float: left;
+}
+
+fieldset > div {
+    padding: 5px;
+}
+
+input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 90%;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+fieldset textarea {
+    width: 75%;
 }
 
 
@@ -188,11 +429,7 @@ hr {
     justify-content: center;
 }
 
-@media (min-width: 1400px)
-.container {
-    (min-width: 1400px)
-.container
-}
+
 
 .img-thumbnail {
     padding: 0.25rem;
@@ -299,6 +536,49 @@ hr {
   justify-content: center;
 }
 
+/* Inspiration page styling */
+.font-family {
+    font-family: 'Merienda One', 'Brush Script MT', cursive;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+    color:#000;
+}
+
+#flower-care {
+    padding-top: 3rem;
+}
+
+.font-size {
+    font-size: 40px;
+}
+
+.container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    padding-left: calc(var(--bs-gutter-x)*.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#top-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    vertical-align: middle;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 #map-section {
     margin: 2% auto 2%;
     display: block;
@@ -351,6 +631,26 @@ nav {
 .nav-toggle-label {
     display: none;
 }
+
+.login {
+    width: 30%;
+    height: 40%;
+    margin-top: 150px;
+}
+
+.register {
+    width: 30%;
+    height: 50%;
+    margin-top: 150px;
+}
+
+.order {
+    margin-top: 45px;
+}
+
+.container {
+    max-width: 720px;
+}
 }
 
 /* Main content */
@@ -371,6 +671,23 @@ main {
     .products-container {
         flex-direction: column;
     }
+
+    .login {
+        width: 35%;
+        height: 40%;
+        margin-top: 150px;
+    }
+
+    .register {
+        width: 50%;
+        max-height: 50%;
+        margin-top: 150px;
+    }
+
+    .order {
+        margin-top: 45px;
+        width: 80%;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -389,7 +706,82 @@ main {
     .one-third-col {
         max-width: 80%;
     }
+
+    .login {
+        width: 65%;
+        height: 50%;
+        margin-top: 150px;
+    }
+
+    .register {
+        width: 75%;
+        max-height: 85%;
+        margin-top: 150px;
+    }
+
+    .order {
+        margin-top: 45px;
+        width: 90%;
+    }
+
+    #order-background {
+        height: 140vh;
+    }
+
+    .font-size {
+        font-size: 25px;
+    }
+
+    .font-family {
+        font-size: 2.5rem;
+    }
 }
 
-    
+@media (max-width: 767.98px) {
+#flower-care p img {
+    width: 100%;
+    height: auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    #flower-care {
+        padding-top: 5rem;
+    }
+
+    .font-size {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 992px) {
+    #flower-care {
+        max-width: 1200px;
+    }
+    .container {
+        max-width: 960px;
+    }
+}   
 

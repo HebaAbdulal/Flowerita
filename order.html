@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Flowerita, Explore a variety of fresh and beautiful flowers and bouquets.">
+    <meta name="keywords" content="flower, rose, tulip, stockholm">
+    <meta name="author" content="Flowerita">
+    <!-- Title -->
+    <title>Flowerita</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html"></a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html#products" class="active">Home</a></li>
+                <li><a href="inspiration.html">Inspiration</a></li>
+                <li><a href="index.html#aboutus">About us</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="order-background" class="page-header">
+        <!-- Form section -->
+        <div class="order">
+            <form action="http://formdump.codeinstitute.net" method="POST">
+                <fieldset>
+                    <legend class="bold">YOUR DETAILS</legend>
+                    <div class="float">
+                        <label for="name-field">Name</label>
+                        <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                    </div>
+                    <div class="float">
+                        <label for="email-field">Email</label>
+                        <input id="email-field" type="text" name="email" placeholder="Your email" required>   
+                    </div>
+                </fieldset>
+                    <legend class="bold">CHOOSE FLOWERS</legend>
+                        <P>Which flowers would you like to choose?</P>
+                    <div>
+                        <input type="checkbox" id="january-checkbox" name="january">
+                        <label for="january-checkbox">January</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="february-checkbox" name="february">
+                        <label for="february-checkbox">February</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="march-checkbox" name="march">
+                        <label for="march-checkbox">March</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="april-checkbox" name="april">
+                        <label for="april-checkbox">April</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="may-checkbox" name="may">
+                        <label for="may-checkbox">May</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="june-checkbox" name="june">
+                        <label for="june-checkbox">June</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="bold">ADD YOUR ADDRESS</legend>
+                    <label for="text">Address</label>
+                    <br>
+                    <textarea id="text" required="required" rows="5"> 
+                    </textarea>
+                </fieldset>
+                <fieldset>
+                    <legend class="bold">LEAVE A MESSAGE</legend>
+                    <label for="text">Message</label>
+                    <br>
+                    <textarea id="text" required="required" rows="5"> 
+                    </textarea>
+                <fieldset>
+                <div>
+                    <input type="checkbox" id="checkbox" name="agree">
+                    <label for="checkbox">I agree</label>
+                    <br>
+                    <input type="submit" value="Place your order">
+                    <input type="reset" value="Clear">
+                </div>
+            </fieldset>  
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+            <li><a href="http://www.facebook.com/" target="_blank" rel="nooppener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="http://www.instagram.com/" target="_blank" rel="nooppener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="http://www.twitter.com/" target="_blank" rel="nooppener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/b037b2e155.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
