@@ -198,7 +198,7 @@ main {
 .form .input-display {
     position: relative;
     width: 100%;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     padding-top: 5px;
   }
@@ -287,7 +287,7 @@ input[type="reset"] {
   border-radius: 20px;
   cursor: pointer;
   padding: 5px;
-  font-size: 14px;
+  font-size: 15px;
   width: 8em;
   margin-top: 14px;
 }
@@ -579,6 +579,73 @@ p {
     margin-bottom: 1rem;
 }
 
+#contactus {
+    height: 100vh;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../backgrounds/contactus.jpg) center 80%/ cover no-repeat;
+}
+
+#contactus {
+    max-width: 100%;
+}
+
+.contact-details {
+    flex-direction: column;
+    position: relative;
+    display: flex;
+}
+
+.underline {
+    text-decoration: underline rgb(8, 8, 8);
+    font-size: 30px;
+}
+
+.contactus-container {
+    margin: 5%;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.contactus-container .details {
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+}
+
+.contactus-container .details .box {
+    display: flex;
+    padding: 15px 5%;
+    position:relative;
+}
+
+.contactus-container .details .box .icon {
+    min-width: 50px;
+    height: 50px;
+    background: #dac1c1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.details {
+    background-color: rgb(191 128 128 / 73%);
+}
+
+#contactus .form {
+    height: 90%;
+    padding: 25px;
+    width: 35%;
+    margin-left: 40%;
+}
+
 #map-section {
     margin: 2% auto 2%;
     display: block;
@@ -651,6 +718,14 @@ nav {
 .container {
     max-width: 720px;
 }
+
+.details {
+    max-width: 25%;
+}
+
+#contactus .form {
+    margin-left: 40%;
+}
 }
 
 /* Main content */
@@ -687,6 +762,26 @@ main {
     .order {
         margin-top: 45px;
         width: 80%;
+    }
+
+    #contactus {
+        height: 150vh;
+    }
+
+    .contactus-container {
+        flex-direction: column;
+    }
+
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .details {
+        max-width: 40%;
+    }
+
+    #contactus .form {
+        margin-left: 0;
     }
 }
 
@@ -735,6 +830,28 @@ main {
     .font-family {
         font-size: 2.5rem;
     }
+
+    #contactus {
+        height: 160vh;
+    }
+
+    .contactus-container {
+        flex-direction: column;
+    }
+
+    .contact-details {
+        flex-direction: column;
+    }
+
+    #contactus .form {
+        width: 65%;
+        margin-left: 0;
+    }
+
+    .details {
+        max-width: 80%;
+    }
+
 }
 
 @media (max-width: 767.98px) {

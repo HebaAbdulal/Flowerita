@@ -31,8 +31,8 @@
             <ul id="menu">
                 <li><a href="index.html#products" class="active">Home</a></li>
                 <li><a href="inspiration.html">Inspiration</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Contact us</a></li>
+                <li><a href="index.html#aboutus">About us</a></li>
+                <li><a href="inspiration.html#contactus">Contact us</a></li>
             </ul>
         </nav>
     </header>
@@ -79,8 +79,69 @@
             </p>
         </section>
         <section id="contactus">
-            <div class="contact-details">
-                <h2 class="main-h color text-center decoration">Contact Us</h2>
+            <div class="contactus-container">
+                <div class="details">
+                    <div class="contact-details">
+                        <h2 class="main-h text-black text-center underline">Contact Us</h2>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map" style="font-size: 20px; color: black; aria-hidden="true"></i>
+                        </div>
+                        <div class="info">
+                            <h3 class="font-weight text-black">Address</h3>
+                            <p>Östermalmstorg 3,
+                                <br>
+                                114 34
+                                <br>
+                                Stockholm
+                            </p>
+                        </div>     
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o" style="font-size: 20px; color: black; aria-hidden="true"></i>
+                        </div>
+                        <div class="info"><h3 class="font-weight text-black">Email</h3>
+                            <p>hebaabdulal24@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone" style="font-size: 20px; color: black; aria-hidden="true"></i>
+                        </div>
+                        <div class="info">
+                            <h3 class="font-weight text-black">Phone</h3>
+                            <p>071 582 45 78</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact us form -->
+                <div class="form text-center">
+                    <h2>Send Your Message</h2>
+                    <form action="https://formdump.codeinstitute.net" metohd="POST">
+                        <div class="input-display">
+                            <input type="text" name="name" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="input-display">
+                            <input type="text" name="email" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="input-display">
+                            <textarea required="required"></textarea>
+                            <span>Message</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkbox" name="agree">
+                            <label for="checkbox">I agree</label>
+                        </div>
+                        <div>
+                            <input type="submit" name="submit" value="submit">
+                            <input type="reset" name="reset" value="reset">
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
