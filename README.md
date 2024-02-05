@@ -1,110 +1,322 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1>Flowerita Shop Website</h1>
 
-Welcome Heba Abdulal,
+<p>Flowerita is crafted to be responsive, ensuring visitors can easily access it from various devices. It provides information about the Flowerita shop for all who visit.</p>
+<img src="assets/readme/responsive.png" alt="website responsiveness picture">
+<br>
+<a class="text-color" href="https://hebaabdulal.github.io/Flowerita/">Surf the Flowerita Website here</a>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h2>Features</h2>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h3>Existing Features</h3>
+    <ul>
+        <li>
+            <p><strong>Navigation Bar</strong></p>
+            <ul>
+                <li>Present on every page, the fully responsive navigation bar features links to the Home page, Inspiration, Login, Signup, and Order page. It remains consistent across all pages, ensuring effortless navigation.
+                </li>
+                <li>This feature enables users to seamlessly move between pages on any device without needing to rely on the "back" button.
+                </li>
+            </ul>
+        </li>
+    </ul>
 
-## Gitpod Reminders
+<li>User Stories</li>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<br>
 
-`python3 -m http.server`
+<h3>Design</h3>
 
-A blue button should appear to click: _Make Public_,
+<li>Colour Scheme
 
-Another blue button should appear to click: _Open Browser_.
+<li>Typography
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<li>Wireframes
 
-A blue button should appear to click: _Make Public_,
+<li>Features
 
-Another blue button should appear to click: _Open Browser_.
+<li>Accessibility</li>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<br>
 
-To log into the Heroku toolbelt CLI:
+<h3>Technologies Used</h3>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<li>Languages Used
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<li>Frameworks, Libraries & Programs Used</li>
 
-------
+<br>
 
-## Release History
+<h3>Deployment & Local Development</h3>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<li>Deployment
 
-**September 20 2023:** Update Python version to 3.9.17.
+<li>Local Development
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<li>How to Fork
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<li>How to Clone</li>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<br>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<h3>Testing</h3>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<li>W3C Validator
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<h3>Credits</h3>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<li>Code Used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<li>Content
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<li>Media
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<li>Acknowledgments
+<br><br>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<h1 class="text-color">User Experience (UX)</h1>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<h3>Initial Discussion</h3>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Happy Days Icecream is my first project in which is html and css coding based and online platform to demonstrate my shops products and flavours and added forms and explained about our services on this website.
 
-------
+<h4>Key information for the site</h4>
 
-## FAQ about the uptime script
+<li>What is the current flavours.
 
-**Why have you added this script?**
+<li>What are the upcoming flavours.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<li>How to Signup and be a member of our shop.
 
-**How will this affect me?**
+<li>Customers or People can enquire, questions and get recommendations by filling up contact form.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+</li>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+<br>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<h3>User Stories</h3>
 
-**So….?**
+<h4>Clients Goals<h4>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<li>To be able to view the site on a range of device sizes.
 
-**Can I opt out?**
+<li>To make it easy for potential members to find out what this website is about and how to become a member.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+<li>To provide updates to their members about upcoming updates and modifications.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+<li>to authorize people to become member and answering their enquiries.
 
-**Anything more?**
+<h4>First Time Customers Goals<h4>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+<li>I want to find out what is this website about and how can i sign up and sign in.
 
----
+<li>I want to be able to navigate the site easily to find information.
 
-Happy coding!
+<li>I want to be able to find their social profiles.</li>
+
+<h4>Returning Customers Goals<h4>
+
+<li>I want to find up to date information on what the book club is reading.
+
+<li>I want to be able to easily contact the Happy Days Icecream with my enquiries I might have.</li>
+
+<h4>Frequent Customers Goal<h4>
+
+<li>I want to be able to recommend a book for the book club to read.</li>
+
+<h1 class="text-color">Design</h1>
+
+<h2>Color Palette</h2>
+
+<img src="assets/images/readme/colorpalettes.png" alt="color palettes picture">
+
+Color palette of pastel colours that are often used in this website text and headings. The colour palette was created using the Coolors website.
+
+<h2>Typography</h2>
+
+Google Fonts was used for the following fonts:
+
+<li>Tangerine for all headings i used for this website.
+
+<li>roboto used as a reset and for body text which is sans serif font.
+
+<li>i added fonts roboto(300,400),lato(300) and Oswald(300).
+
+<h2>Imagery</h2>
+
+All the images i used in this website is from <a href="https://www.pexels.com/">www.pexels.com</a>
+<br>and are free(no copyright infringe).
+
+<h2>Wireframes</h2>
+
+Wireframes were created for desktop.
+
+<img src="assets/images/readme/Wireframes.jpg">
+
+<h2>Features</h2>
+
+The website is comprised of four pages, one of home page and contact us form is accessible from navigation menu lists and others forms can be accessible from buttons on  the main header section.The fourth page is a form submission confirmation page which is shown once a user submits the form on the contact us,all other three forms on other pages.
+
+<br>
+
+<h4>Home  Page</h4>
+
+<li>A logo of website and navigation bar(about us,Services,Flavours,Contact Us) which is responsive  on all pages.
+
+<li>When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
+
+<h4>Footer</h4>
+
+<li>Footer is there with all social links and icons to bring to social platforms.</li>
+
+<h4>Contact Us</h4>
+
+<li>To get enquiries from customers they need contact form where they will be asking to fill name,email message and check box to confirm and finally submit.</li>
+
+<h4>Sign In Form</h4>
+
+<li>This form has name and email feild and submit and reset button where after filling there information they can login or reset the form.</li>
+
+<h4>Sign Up Form</h4>
+
+<li>This form has name, email and feild to choose and to reenter there password to become a member and submit and reset button where after filling there information they can signup or reset the from reset button.</li>
+
+<h4>Order Form</h4>
+
+<h4>Thank You Page</h4>
+
+<li>A message thanks the user for submitting the form and lets them know someone will be in touch soon.</li>
+<h2>Accessibility</h2>
+
+I have been mindful during coding to ensure that the website is a User Friendly.
+
+<li>Using semantic HTML.
+
+Using descriptive alt attributes on images on the site.
+
+<li>Providing information for screen readers where there are icons used and no text - such as the review ratings for books & footer icons.
+
+<li>Ensuring that there is a sufficient colour contrast throughout the site.
+
+<li>Ensuring menus are accessible by marking the current page as current for screen readers.
+
+<h3>Future Implementations.</h3>
+
+<li>Use javascript to perform return to top function on Website.
+
+<li>A meet the members page - This would have a photo of the member together with a small bio. A link to their instagram and/or goodreads page.
+
+<li>Competitions/giveaways page - This page would give further information/rules on the competitions and giveaways.
+
+<h2>Languages Used</h2>
+
+HTML,CSS.
+
+<h2>Frameworks, Libraries & Programs Used</h2>
+
+Balsamiq - Used to create wireframes.
+
+Gitpod- For version control.
+
+Github - To save and store the files for the website.
+
+Bootstrap Version 4.6 - The framework for the website. Code for the navigation bar, carousel, scrolls form were used and modified. Additional CSS styling was also implemented in style.css.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome icons- For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+<a href="https://tinypng.com/">Tiny PNG </a>To compress images.
+
+<a href="https://favicon.io/Favicon.io">www.favicon.io</a> To create favicon.
+
+<a href="https://ui.dev/amiresponsive">Am I Responsive?</a> To show the website image on a range of devices.
+
+<h1>Deployment & Local Development</h1>
+
+<h2>Testing</h2>
+<a href="https://validator.w3.org/nu/#textarea">WWW.validator.w3.org</a><br><br>
+
+<h1 ">Credits</h1>
+
+<h2>Deployment</h2>
+
+Instructions to deploy this project on github.
+
+<ol>
+
+<li>Log in (or sign up) to Github.
+
+Find the repository for this project, Happy Days Icecream.
+
+<li>Click on the Settings link.
+
+<li>Click on the Pages link in the left hand side navigation bar.
+
+<li>In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+
+<li>Click Save. Your live Github Pages site is now deployed at the URL shown.</li>
+
+</ol>
+
+<h2>Local Development</h2>
+
+<h4>How to Fork</h3>
+
+To fork the Happy Days Icecream repository:
+
+<ol>
+
+<li>Log in (or sign up) to <a href="https://github.com/">Github</a>.
+
+<li>Go to the repository for this project, Mandeep-K724/Happy-Days-Icecream.
+
+<li>Click the Fork button in the top right corner.</li>
+
+<h4>How to Clone</h4>
+
+<ol>
+
+<li>Log in (or sign up) to GitHub.
+
+Go to the repository for this project, Mandeep-K724/Happy-Days-Icecream.
+
+<li>Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+
+<li>Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+
+<li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.</li>
+</ol><br><br>
+
+<h1>Testing</h1>
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+<h2>W3C Validator</h2>
+<a href="https://www.w3.org/">WWW.W3C.ORG</a>
+<br>
+<br>
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+<br><br>
+<h1>Credits</h1>
+
+<h2>Code Used</h2>
+
+<li>HTML</li>
+
+<li>CSS</li>
+
+<h2>Content</h2>
+
+<p>Content for the website is written by the owner Mandeep Kaur.</p>
+
+<h2>Media</h2>
+
+Website used pictures and vs code editor and logos, pictures source was <a href="https://www.pexels.com/">WWW.Pexels.Com</a>
+
+<a href="(https://www.google.co.uk/chrome/)">Google Chrome Browser</a>
+
+<h2>Acknowledgments</h2>
+
+I would like to acknowledge the following people who helped me along the way in completing my first milestone project:<a href="https://app.slack.com/client/T0L30B202/D05BLRGBBQ9"><br>
+Dario Carrasquel</a>,my Code Institute Mentor.
