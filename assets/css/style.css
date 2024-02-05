@@ -726,6 +726,11 @@ nav {
 #contactus .form {
     margin-left: 40%;
 }
+
+h1 {
+    font-size: 7rem;
+    font-weight: lighter;
+}
 }
 
 /* Main content */
