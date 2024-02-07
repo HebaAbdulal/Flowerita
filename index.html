@@ -28,10 +28,10 @@
             <i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html#products" class="active">Home</a></li>
+                <li><a href="index.html#products">Home</a></li>
                 <li><a href="inspiration.html">Inspiration</a></li>
-                <li><a href="index.html#aboutus">About us</a></li>
-                <li><a href="inspiration.html#contactus">Contact us</a></li>
+                <li><a href="inspiration.html#aboutus">About us</a></li>
+                <li><a href="index.html#contactus">Contact us</a></li>
             </ul>
         </nav>
     </header>
@@ -44,14 +44,7 @@
                 <p class="color">Discover a variety of beautiful flowers and bouquets at our shop in Stockholm.</p>
             </div>
             <div id="button">
-                <a href="order.html"> 
-                    <button class="order-button">Order Now</button>
-                </a>
-                   
-                <a href="login.html">
-                    <button class="login-button">Login</button>
-                </a>
-                    
+                <a href="order.html" class="order-button">Order Now</a>
             </div>
         </section>
         <section id="products" class="center">
@@ -110,35 +103,77 @@
             </div>
         </section>
 
-        <!-- About us section -->
-        <div class="block-heading">
-            <hr>
-            <h2 class="text-center">Flowerita's story</h2>
-            <hr>
-        </div>
-        <section id="aboutus">
-            <div id="one-third-col" class="text-center text-black">
-                <div class="text-black aboutus-box">
+        <!-- Contact us Form section -->
+        <section id="contactus">
+            <div class="contactus-container">
+                <div class="details">
+                    <div class="contact-details">
+                        <h2 class="main-h text-black text-center underline">Contact Us</h2>
+                    </div>
                     <div class="box">
-                        <h3 class="text-color decoration">Our Story</h3>
-                        <p class="black">Our journey is a tapestry woven with passion and commitment. Discover the roots of our business, from the seed of an idea to a flourishing garden of innovation.</p>
+                        <div class="icon">
+                            <i class="fa fa-map" style="font-size: 20px; color: black; aria-hidden="true"></i>
+                        </div>
+                        <div class="info">
+                            <h3 class="font-weight text-black">Address</h3>
+                            <p>Östermalmstorg 3,
+                                <br>
+                                114 34
+                                <br>
+                                Stockholm
+                            </p>
+                        </div>     
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o" style="font-size: 20px; color: black; aria-hidden="true"></i>
+                        </div>
+                        <div class="info"><h3 class="font-weight text-black">Email</h3>
+                            <p>hebaabdulal24@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone" style="font-size: 20px; color: black; aria-hidden="true"></i>
+                        </div>
+                        <div class="info">
+                            <h3 class="font-weight text-black">Phone</h3>
+                            <p>071 582 45 78</p>
+                        </div>
                     </div>
                 </div>
-                <div class="text-black aboutus-box">
-                    <div class="box">
-                        <h3 class="text-color decoration">Meet the Team</h3>
-                        <p class="black">Behind the scenes at Flowerita, a diverse and talented team powers our success. Learn about the individuals who bring creativity, expertise, and a shared vision to the table. </p>
+                <div class="contactus-form">
+                    <form action="http://formdump.codeinstitute.net" method="POST">
+                        <fieldset>
+                            <legend class="bold">YOUR DETAILS</legend>
+                            <div class="float">
+                                <label for="name-field">Name</label>
+                                <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                            </div>
+                            <div class="float">
+                                <label for="email-field">Email</label>
+                                <input id="email-field" type="text" name="email" placeholder="Your email" required>   
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="bold">LEAVE A MESSAGE</legend>
+                            <label for="text">Message</label>
+                            <br>
+                            <textarea id="text" required="required" rows="5"> 
+                            </textarea>
+                        <fieldset>
+                        <div>
+                            <input type="checkbox" id="checkbox" name="agree">
+                            <label for="checkbox">I agree</label>
+                            <br>
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </fieldset>  
+                    </form>
                 </div>
-                    </div>
-                <div class="text-black aboutus-box">
-                    <div class="box">
-                        <h3 class="text-color decoration">Our Mission</h3>
-                        <p class="black">At the heart of Flowerita lies a mission to spread joy through the language of flowers. Explore how we're dedicated to nurturing beauty, not just in our arrangements but in every interaction with our customers. </p>
-                    </div>
-                </div>
-                
-            </div>
         </section>
+       
         <!-- Map section -->
         <section id="map-section" class="center">
             <h2 class="main-h">Our location</h2>

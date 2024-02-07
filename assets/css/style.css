@@ -28,7 +28,7 @@ h1 {
 }
 
 .color {
-    color: white;
+    color: black;
     font-size: 1.5rem;
     letter-spacing: 2px;
 }
@@ -61,10 +61,6 @@ header a {
 
 #menu > li {
     margin-bottom: 1em;
-}
-
-.active {
-    border-bottom: 1px solid #976363;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -112,7 +108,7 @@ main {
     background: url("../backgrounds/flo.jpg") no-repeat center center/cover;
     position: relative;
 }
-/* Final rgba value sets the opacity so it is semi transparent */
+/* Final rgb value sets the opacity so it is semi transparent */
 #cover-text {
     background-color: rgb(224, 211, 211, .8);
     width: 60%;
@@ -124,7 +120,7 @@ main {
 }
 
 #cover-text > h1 {
-    color: white;
+    color: black;
 }
 
 .page-header {
@@ -147,19 +143,20 @@ main {
 #button {
     display: block;
     padding-left: 30%;
-    padding-top: 390px;
+    padding-top: 420px;
 }
 
-.order-button, .login-button {
+.order-button {
     color: #03030e;
     background: rgb(224, 211, 211);
-    padding: 5px;
+    padding: 10px;
     border: none;
     border-radius: 20px;
     width: 8em;
     margin: 3% 0.6%;
     font-size: 1.5em;
     font-family: Kepler-Med-Capt,serif;
+    text-decoration: none;
   }
   
   
@@ -169,39 +166,9 @@ main {
     color: red;
   }
 
-  .login-button:hover {
-    background-color: #c6c6e4;
-    text-decoration: underline;
-    color: red;
-  }
-
-  .login {
-    align-items: center;
-    margin-top: 20px;
-    height: 40%;
-    width: 25%;
-    display: inline-block;
-    padding: 2%;
-  }
-
-  .form {
-    width: 40%;
-    background-image: linear-gradient(to right, rgb(224, 211, 211), rgb(248, 241, 240));
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-
-  .form h2 {
+h2 {
     margin-bottom: 2px;
 }
-
-.form .input-display {
-    position: relative;
-    width: 100%;
-    font-size: 15px;
-    font-weight: 400;
-    padding-top: 5px;
-  }
 
 h2 {
     font-size: 20px;
@@ -213,18 +180,8 @@ h2 {
     line-height: 1.2;
 }
 
-  .form .input-display input {
-    width: 100%;
-    padding: 4px 0;
-    margin: 8px 0;
-    border: none;
-    border-bottom: 1px solid #07071a;
-    outline: none;
-    resize: none;
-    font-size: 20px;
-}
-
-  .form .input-display textarea {
+  
+.input-display textarea {
     width: 100%;
     padding: 4px 0;
     margin: 8px 0;
@@ -235,40 +192,18 @@ h2 {
     font-size: 12px;
 }
 
-  .login .input-display {
-    position: relative;
-    width: 100%;
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 5px;
-}
-
-  .input-display textarea {
+.input-display textarea {
       height: 5em;
 }
   
   
-  .form .input-display span {
+.input-display span {
     position: absolute;
     left: 0;
     padding: 5px 0;
     margin: 10px 0;
     font-size: 15px;
     pointer-events: none;
-}
-
-    .login a {
-    text-decoration: none;
-}
-  
-  .login a:hover {
-    color: rgb(38, 67, 197);
-    text-decoration: underline;
-  
-}
-
-  .login p {
-    margin-top: 20px;
 }
 
 .form .input-display input:focus~span,
@@ -304,27 +239,6 @@ input[type="reset"]:hover {
   color: #353bf0;
 }
 
-.login a {
-    text-decoration: none;
-    color:#000000;
-}
-
-.register {
-    width: 30%;
-    display: inline-block;
-    padding: 1%;
-}
-
-.register p {
-    margin-top: 20px;
-}
-
-.register .input-display {
-    width: 85%;
-    margin-top: 5px;
-    display: inline-block;
-}
-
 /* Order page styling */
 #order-background {
     height: 100vh;
@@ -346,6 +260,10 @@ fieldset {
     margin: 10px;
     background-color: #d6c0c0;
     border: none;
+}
+
+.margin {
+    margin: 10px;
 }
 
 .bold {
@@ -470,7 +388,7 @@ hr {
 
     /* About us section */
 #one-third-col {
-   max-width: 50%;
+   max-width: 70%;
     margin: 0;
     display: flex;
     align-items: center;
@@ -485,8 +403,8 @@ hr {
 .aboutus-box {
     padding: 10px 5px 25px 5px;
     border-radius: 8px;
-    width: 100%px;
-    margin: 2%;
+    width: 100%;
+    margin: 5%;
     background-color: rgb(224, 211, 211, .7);
     position: relative;
     left: 20%;
@@ -562,6 +480,7 @@ hr {
     margin-right: auto;
     margin-left: auto;
 }
+
 
 #top-text {
     display: flex;
@@ -646,10 +565,19 @@ p {
     margin-left: 40%;
 }
 
+.contactus-form {
+    width: 45%;
+    justify-items: left;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 5px auto;
+    background-color: rgb(231, 226, 226);
+}
+
 #map-section {
     margin: 2% auto 2%;
     display: block;
-    padding: auto
+    padding: auto;
 }
 
 #map-section .map {
@@ -699,24 +627,9 @@ nav {
     display: none;
 }
 
-.login {
-    width: 30%;
-    height: 40%;
-    margin-top: 150px;
-}
-
-.register {
-    width: 30%;
-    height: 50%;
-    margin-top: 150px;
-}
-
-.order {
-    margin-top: 45px;
-}
-
-.container {
-    max-width: 720px;
+.contactus-form {
+    margin-bottom: 0;
+    margin-left: 50%;
 }
 
 .details {
@@ -727,9 +640,18 @@ nav {
     margin-left: 40%;
 }
 
-h1 {
-    font-size: 7rem;
-    font-weight: lighter;
+
+.container {
+    max-width: 720px;
+}
+
+.contactus-form {
+    margin-top: 45px;
+}
+
+.order {
+    margin-top: 50px;
+    width: 60%;
 }
 }
 
@@ -752,19 +674,7 @@ main {
         flex-direction: column;
     }
 
-    .login {
-        width: 35%;
-        height: 40%;
-        margin-top: 150px;
-    }
-
-    .register {
-        width: 50%;
-        max-height: 50%;
-        margin-top: 150px;
-    }
-
-    .order {
+    .contactus-form {
         margin-top: 45px;
         width: 80%;
     }
@@ -788,6 +698,16 @@ main {
     #contactus .form {
         margin-left: 0;
     }
+
+    .contactus-form {
+        margin-top: 45px;
+        width: 50%;
+    }
+
+    .order {
+        margin-top: 50px;
+        width: 60%;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -807,19 +727,7 @@ main {
         max-width: 80%;
     }
 
-    .login {
-        width: 65%;
-        height: 50%;
-        margin-top: 150px;
-    }
-
-    .register {
-        width: 75%;
-        max-height: 85%;
-        margin-top: 150px;
-    }
-
-    .order {
+    .contactus-form {
         margin-top: 45px;
         width: 90%;
     }
@@ -857,6 +765,16 @@ main {
         max-width: 80%;
     }
 
+    .contactus-form {
+        margin-top: 45px;
+        width: 90%;
+    }
+
+    .order {
+        margin-top: 50px;
+        width: 80%;
+    }
+
 }
 
 @media (max-width: 767.98px) {
@@ -876,13 +794,19 @@ main {
     .container {
         max-width: 1180px;
     }
+
+    .order {
+        width: 50%;
+    }
 }
 
 @media (min-width: 768px) {
+
     .container {
         max-width: 720px;
     }
 
+   
     #flower-care {
         padding-top: 5rem;
     }
@@ -902,8 +826,22 @@ main {
     #flower-care {
         max-width: 1200px;
     }
+
     .container {
         max-width: 960px;
     }
+
+    h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+    }
+   
 }   
+
+@media (max-width: 320px) {
+    .order {
+        width: 90%;
+    }
+}
+
 
