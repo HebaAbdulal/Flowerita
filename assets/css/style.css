@@ -629,7 +629,8 @@ nav {
 
 .contactus-form {
     margin-bottom: 0;
-    margin-left: 50%;
+    margin-right: 15px;
+    width: 30%;
 }
 
 .details {
@@ -701,7 +702,7 @@ main {
 
     .contactus-form {
         margin-top: 45px;
-        width: 50%;
+        width: 60%;
     }
 
     .order {
@@ -768,6 +769,7 @@ main {
     .contactus-form {
         margin-top: 45px;
         width: 90%;
+        }
     }
 
     .order {
@@ -775,7 +777,7 @@ main {
         width: 80%;
     }
 
-}
+
 
 @media (max-width: 767.98px) {
 #flower-care p img {
@@ -814,6 +816,8 @@ main {
     .font-size {
         font-size: 40px;
     }
+
+
 }
 
 @media (min-width: 576px) {
@@ -842,6 +846,17 @@ main {
     .order {
         width: 90%;
     }
+
+   
 }
+
+@media (width: 768px) {
+    .contactus-form {
+        margin-right: 150px;
+    }
+}
+
+
+
 
 
