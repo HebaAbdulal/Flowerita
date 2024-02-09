@@ -45,9 +45,10 @@ Flowerita is crafted to be responsive, ensuring visitors can easily access it fr
 
 - __Initial Discussion__
 
-Flowerita represents my debut project, crafted with HTML and CSS, offering an online space to exhibit my shop's array of products and diverse flower selections. It also features interactive forms and comprehensive explanations about our website's functionalities.
+    Flowerita represents my debut project, crafted with HTML and CSS, offering an online space to exhibit my shop's array of products and diverse flower selections. It also features interactive forms and comprehensive explanations about our website's functionalities.
 
-#### Important Details About the Website
+    #### Important Details About the Website
+
     - Present selection of flowers.
     - Ordering process guidelines.
     - Contact form for inquiries, questions, and recommendations from customers or visitors.
