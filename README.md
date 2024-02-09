@@ -30,6 +30,8 @@ Flowerita is crafted to be responsive, ensuring visitors can easily access it fr
 
 ### Testing
 - __W3C Validator__
+- __Navigation Links__
+- __Responsive Design__
 
 ### Credits
 
@@ -129,8 +131,35 @@ Wireframes were created for desktop.
 
 - __HTML__
     - W3C validator
+
+    <br>
+
+    ![HTML Validator picture](assets/readme/validator-html.png)
+
 - __CSS__
     - W3C Validator
+
+    <br>
+
+     ![CSS Validator picture](assets/readme/validator-css.png)
+
+### In order to ensure the functionality and usability of the       website, manual testing was conducted. The following tests were performed:
+
+- __Navigation Links__
+
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or Fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Home Page Link       | Navigate to the home page when clicked | Clicked on the home page link in the navigation bar on every page | Successfully navigated to the home page | Pass |
+| Inspiration Page Link| Navigate to the inspiration page when clicked | Clicked on the inspiration page link in the navigation bar on every page | Successfully navigated to the inspiration page | Pass |
+| About Us Page Link   | Navigate to the about us page when clicked | Clicked on the about us page link in the navigation bar on every page | Successfully navigated to the about us page | Pass |
+| Contact Us Page Link | Navigate to the contact us page when clicked | Clicked on the contact us page link in the navigation bar on every page | Successfully navigated to the contact us page | Pass |
+
+- __Responsive Design__
+
+    The responsiveness of the website was tested using various devices and screen sizes:
+    - Desktop: The website displayed correctly and all elements were properly aligned.
+    - Tablet: The website adjusted smoothly to the tablet screen size, maintaining readability and usability.
+    - Mobile: The website was responsive on mobile devices, with menus and content adjusting appropriately for smaller screens.
 
 ## Deployment
 

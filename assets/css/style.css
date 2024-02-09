@@ -577,7 +577,7 @@ p {
 #map-section {
     margin: 2% auto 2%;
     display: block;
-    padding: auto;
+    padding: 0;
 }
 
 #map-section .map {
