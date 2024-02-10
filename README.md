@@ -98,7 +98,7 @@ Wireframes were created for desktop.
 - __Navigation Bar__
 
            
-    - Present on every page, the fully responsive navigation bar features links to the Home page, Inspiration, Login, Signup, and Order page. It remains consistent across all pages, ensuring effortless navigation.
+    - Present on every page, the fully responsive navigation bar features links to the Home page, Inspiration, About us, Contact us and Order page. It remains consistent across all pages, ensuring effortless navigation.
                 
     - This feature enables users to seamlessly move between pages on any device without needing to rely on the "back" button.
                 
